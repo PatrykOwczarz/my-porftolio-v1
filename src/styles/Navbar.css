@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #176B87;
+    display: flex ;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.navbar h2{
+    margin: 0;
+    
+}
+
+.links {
+    padding-left: 40%;
+}
