@@ -1,15 +1,85 @@
-.navbar {
+.mainNav {
     background-color: #176B87;
     display: flex ;
-    justify-content: center;
-    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
 }
 
 .navbar h2{
     margin: 0;
+}
+
+.navbar a {
+    padding: 0.5rem 1rem
+}
+
+.toggleButton svg {
+    font-size: 50px;
+}
+  
+#open .links {
+    display: none
+}
+  
+#open a {
+    text-align: center;
+}
+
+.openLinks{
+    background-color: #176B87;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
     
 }
 
-.links {
-    padding-left: 40%;
+.toggleButton button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .toggleButton {
+        display: flex;
+        margin-left: 40px;
+    }
+
+    .openLinks {
+        border-top: 2px solid #001c30;
+        padding: 10px 0;
+    }
+
+    #close .links {
+        display: none;
+    }
+
+    #close .dropdown {
+        display: none;
+    }
+}
+  
+@media only screen and (min-width: 600px) {
+    .toggleButton {
+        display: none;
+    }
+    
+    #open .links {
+        display: flex;
+    }
+    .dropdown {
+        display:none;
+    }
+  
+    .hiddenLinks {
+        display: none;
+    }
+  
+    #open {
+        height: 100px;
+    }
+  
 }
