@@ -18,7 +18,7 @@ function Navbar(){
             <div className='mainNav'>
                 <h2>Patryk Owczarz</h2>
                 <div className="links">
-                    <Link to="/">Home</Link>
+                    <Link to="/">About me</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/Contact">Contact me</Link>
                 </div>
@@ -32,7 +32,7 @@ function Navbar(){
             
             <div className='dropdown'>
                 <div className='openLinks'>
-                        <Link to="/">Home</Link>
+                        <Link to="/">About me</Link>
                         <Link to="/projects">Projects</Link>
                         <Link to="/Contact">Contact me</Link>
                 </div>
