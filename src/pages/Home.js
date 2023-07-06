@@ -10,7 +10,7 @@ function Home() {
         <div className='aboutMe'>
             <div className='details'>
                 <div className='myPicture'>
-                    <img src={ProfilePic} alt="Profile Picture" width="200" height="200"/>
+                    <img src={ProfilePic} alt="Profile" width="200" height="200"/>
                 </div>
                 <div className='textDetails'>
                     <h1>Patryk Owcarz</h1>
