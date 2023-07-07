@@ -1,0 +1,114 @@
+.projectsPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.projectsPage p {
+    margin: 0;
+}
+
+.projectLayout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0 80px 0;
+}
+
+.projectBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 700px;
+    height: 250px;
+
+    background-color: #64CCC5;
+    color: black;
+
+    border-radius: 10px 10px 10px 10px;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.projectBox img {
+    border: 2px solid black;
+    border-right: 0;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.projectInfo h2 {
+    margin-top: 10px;
+}
+
+.projectDescription {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+
+}
+
+.descriptionP {
+    width: 300px;
+    border: 1px solid white;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.buttons a {
+    color: black;
+}
+
+.buttons img {
+    border: 0px solid white;
+}
+
+@media (max-width: 700px) {
+    .projectBox {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .projectDescription {
+        flex-direction: column;
+    }
+
+    .buttons {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .projectBox img {
+        border: 2px solid black;
+        border-bottom: 0;
+    }
+
+    .buttons img {
+        border: 0px solid white;
+    }
+
+}

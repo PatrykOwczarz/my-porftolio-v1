@@ -10,15 +10,15 @@ function Home() {
         <div className='aboutMe'>
             <div className='details'>
                 <div className='myPicture'>
-                    <img src={ProfilePic} alt="Profile" width="200" height="200"/>
+                    <img src={ProfilePic} alt="Profile" width="200" height="200" />
                 </div>
                 <div className='textDetails'>
                     <h1>Patryk Owcarz</h1>
                     <h2>Game programmer</h2>
                     <div className="socials">
-                        <a href="https://twitter.com/Demkolai"><img src={TwitterIcon} alt="Twitter Icon" width="65" height="50"/></a>
-                        <a href="https://github.com/PatrykOwczarz"><img src={GithubIcon} alt="Github Icon" width="50" height="50"/></a>
-                        <a href="https://www.linkedin.com/in/patryk-owczarz-2071a2196/"><img src={LinkedInIcon} alt="LinkedIn Icon" width="50" height="50"/></a>
+                        <a href="https://twitter.com/Demkolai"><img src={TwitterIcon} alt="Twitter Icon" width="65" height="50" /></a>
+                        <a href="https://github.com/PatrykOwczarz"><img src={GithubIcon} alt="Github Icon" width="50" height="50" /></a>
+                        <a href="https://www.linkedin.com/in/patryk-owczarz-2071a2196/"><img src={LinkedInIcon} alt="LinkedIn Icon" width="50" height="50" /></a>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ function Home() {
                         Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. 
+                        ut labore et dolore magna aliqua.
                         Velit egestas dui id ornare arcu odio ut sem nulla.
                     </p>
                 </div>
@@ -50,7 +50,7 @@ function Home() {
                         Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. 
+                        ut labore et dolore magna aliqua.
                         Velit egestas dui id ornare arcu odio ut sem nulla.
                     </p>
                 </div>
