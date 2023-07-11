@@ -34,7 +34,10 @@ function Home() {
                     <p>
                         Computer Science with Games Technology Graduate with close to a decade
                         of Game development experience with various engines. Including Unity, a Cherno
-                        project derived C++ engine using OpenGL and most recently Unreal. I use Git as version control
+                        project derived C++ engine using OpenGL and most recently Unreal.
+                    </p>
+                    <p>
+                        I use Git as version control
                         for all my projects. I have experience working in a
                         multidisciplinary team of artists, game designers and UX designers.
                     </p>
@@ -44,7 +47,10 @@ function Home() {
                     <p>
                         I have played games since I was 5 years old.
                         My first game ever played was Neverwinter Nights which sparked my love
-                        for RPGs and later D&D. During University I played CS:GO at an amateur pro level,
+                        for RPGs and later D&D.
+                    </p>
+                    <p>
+                        During University I played CS:GO at an amateur pro level,
                         which taught me effective communication and teamwork. To this day I raid in a
                         Mythic top 1000 world ranking guild in World of Warcraft.
                     </p>
@@ -54,7 +60,10 @@ function Home() {
                     <p>
                         My favourite music genres are metal, rock and EDM. However, I can find enjoyment
                         in most music genres. I know how to play the drums and my hidden party trick is
-                        playing guitar hero on expert difficulty. My favourite artists are Alter Bridge,
+                        playing guitar hero on expert difficulty.
+                    </p>
+                    <p>
+                        My favourite artists are Alter Bridge,
                         Polyphia and most recently Fred again..
                     </p>
                 </div>
