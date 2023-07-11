@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
 
-    width: 700px;
+    width: 800px;
     height: 250px;
 
     background-color: #64CCC5;
@@ -32,11 +32,19 @@
 
     margin: 10px;
     padding: 10px;
+
 }
 
 .projectBox img {
     border: 2px solid black;
     border-right: 0;
+    transition: transform 0.3s;
+}
+
+.projectBox img:hover {
+    transform: scale(2) translate(50px, 0);
+    border-right: 2px solid black;
+
 }
 
 .projectInfo {
@@ -83,6 +91,13 @@
 
 .buttons img {
     border: 0px solid white;
+
+}
+
+.buttons img:hover {
+    border: 0px solid white;
+    transform: none;
+
 }
 
 @media (max-width: 700px) {
@@ -94,6 +109,11 @@
 
     .projectDescription {
         flex-direction: column;
+
+    }
+
+    .technologies {
+        margin-top: 20px;
     }
 
     .buttons {
@@ -105,6 +125,11 @@
     .projectBox img {
         border: 2px solid black;
         border-bottom: 0;
+        transition: none;
+    }
+
+    .projectBox img:hover {
+        transform: none;
     }
 
     .buttons img {

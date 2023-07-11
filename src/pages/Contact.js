@@ -14,16 +14,16 @@ function Contact() {
     const form = useRef();
 
     const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('Service ID', 'Template ID', form.current, 'User ID')
-        .then((result) => {
-            console.log(result.text);
-            console.log("message sent");
-            e.target.reset();
-        }, (error) => {
-            console.log(error.text);
-        });
+        e.preventDefault();
+
+        emailjs.sendForm('Service ID', 'Template ID', form.current, 'User ID')
+            .then((result) => {
+                console.log(result.text);
+                console.log("message sent");
+                e.target.reset();
+            }, (error) => {
+                console.log(error.text);
+            });
     };
 
     return (
@@ -31,15 +31,15 @@ function Contact() {
             <h1>CONTACT ME</h1>
             <form ref={form} onSubmit={sendEmail} className="contactForm">
                 <label>Name</label>
-                <input type="text" name="user_name" />
+                <input type="text" name="user_name" placeholder='Name' />
                 <label>Email</label>
-                <input type="email" name="user_email" />
+                <input type="email" name="user_email" placeholder='name@example.com' />
                 <label>Message</label>
-                <textarea name="message" />
+                <textarea name="message" placeholder='Message' />
                 <Button
                     variant="contained"
                     color="primary"
-                    endIcon={<SendIcon/>}
+                    endIcon={<SendIcon />}
                     type="submit"
                 >
                     Send

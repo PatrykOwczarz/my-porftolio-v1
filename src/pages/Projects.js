@@ -1,6 +1,10 @@
 import React from 'react'
 import '../styles/Projects.css'
-import ProfilePic from '../assets/images/profile-pic.jpg'
+import RealmWarp from '../assets/images/realm-warp.jpg'
+import TheDungeon from '../assets/images/the-dungeon.png'
+import TankGame from '../assets/images/tank-game.png'
+import TankSurvival from '../assets/images/tank-survival.png'
+import Darkness from '../assets/images/darkness.png'
 import GithubIcon from '../assets/images/Github.png'
 import Button from '@material-ui/core/Button';
 
@@ -11,16 +15,16 @@ function Projects() {
             <div className='projectLayout'>
 
                 <div className='projectBox'>
-                    <img src={ProfilePic} alt="Profile" width="200" height="200" />
+                    <img src={RealmWarp} alt="Realm-Warp" width="320" height="180" />
                     <div className='projectInfo'>
-                        <h2>Project Title</h2>
+                        <h2>Realm Warp</h2>
                         <div className='projectDescription'>
                             <p className='descriptionP'>
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.
-                                Ut consequat semper viverra nam libero justo laoreet.
+                                C# project using Unity.
+                                Inspired by Half-life 2 and Control, Realm warp is a
+                                physics manipulation game focused on telekinesis, levitation and
+                                force push mechanics to defeat enemies and navigate the game world.
+
                             </p>
                             <div className='technologies'>
                                 <p>Technologies used:</p>
@@ -36,19 +40,13 @@ function Projects() {
                                     </li>
                                 </ul>
                                 <div className='buttons'>
+
                                     <Button
                                         variant="contained"
                                         color="default"
-                                        href="https://github.com/PatrykOwczarz"
+                                        href="https://www.youtube.com/watch?v=KxAylqFRk6Q"
                                     >
-                                        <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
-                                    </Button>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="./"
-                                    >
-                                        Info
+                                        Video
                                     </Button>
 
                                 </div>
@@ -58,16 +56,15 @@ function Projects() {
                 </div>
 
                 <div className='projectBox'>
-                    <img src={ProfilePic} alt="Profile" width="200" height="200" />
+                    <img src={TheDungeon} alt="Profile" width="320" height="180" />
                     <div className='projectInfo'>
-                        <h2>Project Title</h2>
+                        <h2>The Dungeon</h2>
                         <div className='projectDescription'>
                             <p className='descriptionP'>
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.
-                                Ut consequat semper viverra nam libero justo laoreet.
+                                C# project using Unity. Inspired by original
+                                Final Fantasy games and the pokemon games,
+                                The Dungeon is a Turn-based RPG with multiple
+                                classes set in a dark fantasy dungeon.
                             </p>
                             <div className='technologies'>
                                 <p>Technologies used:</p>
@@ -86,16 +83,16 @@ function Projects() {
                                     <Button
                                         variant="contained"
                                         color="default"
-                                        href="https://github.com/PatrykOwczarz"
+                                        href="https://github.com/PatrykOwczarz/The-Dungeon"
                                     >
                                         <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
                                     </Button>
                                     <Button
                                         variant="contained"
                                         color="default"
-                                        href="./"
+                                        href="https://www.youtube.com/watch?v=a_SEyTaseDs"
                                     >
-                                        Info
+                                        Video
                                     </Button>
 
                                 </div>
@@ -105,16 +102,16 @@ function Projects() {
                 </div>
 
                 <div className='projectBox'>
-                    <img src={ProfilePic} alt="Profile" width="200" height="200" />
+                    <img src={TankGame} alt="Profile" width="320" height="180" />
                     <div className='projectInfo'>
-                        <h2>Project Title</h2>
+                        <h2>Tank Game</h2>
                         <div className='projectDescription'>
                             <p className='descriptionP'>
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.
-                                Ut consequat semper viverra nam libero justo laoreet.
+                                C# project in Unity.
+                                Created during a games development academy hosted by University
+                                of Westminster. I worked in a team consisting of
+                                a designer, an artist and myself who was the main programmer.
+                                The game is a wave-based tank shooter.
                             </p>
                             <div className='technologies'>
                                 <p>Technologies used:</p>
@@ -133,16 +130,16 @@ function Projects() {
                                     <Button
                                         variant="contained"
                                         color="default"
-                                        href="https://github.com/PatrykOwczarz"
+                                        href="https://github.com/PatrykOwczarz/Tank-Game"
                                     >
                                         <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
                                     </Button>
                                     <Button
                                         variant="contained"
                                         color="default"
-                                        href="./"
+                                        href="https://www.youtube.com/watch?v=-8v2ylwdyPk"
                                     >
-                                        Info
+                                        Video
                                     </Button>
 
                                 </div>
@@ -155,25 +152,25 @@ function Projects() {
                 </div>
 
                 <div className='projectBox'>
-                    <img src={ProfilePic} alt="Profile" width="200" height="200" />
+                    <img src={TankSurvival} alt="Profile" width="320" height="180" />
                     <div className='projectInfo'>
-                        <h2>Project Title</h2>
+                        <h2>Tank Survival</h2>
                         <div className='projectDescription'>
                             <p className='descriptionP'>
-                                Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua.
-                                Ut consequat semper viverra nam libero justo laoreet.
+                                C++ project using an OpenGL engine.
+                                I created a track using a Catmull-Rom spline on which
+                                the tank auto traverses while the player dodges or destroys
+                                obstacles in the way. The aim of this project was to learn how
+                                rendering is done via buffers and shaders in OpenGL.
                             </p>
                             <div className='technologies'>
                                 <p>Technologies used:</p>
                                 <ul>
                                     <li>
-                                        Unity
+                                        C++
                                     </li>
                                     <li>
-                                        C#
+                                        OpenGL
                                     </li>
                                     <li>
                                         Github
@@ -183,16 +180,65 @@ function Projects() {
                                     <Button
                                         variant="contained"
                                         color="default"
-                                        href="https://github.com/PatrykOwczarz"
+                                        href="https://github.com/PatrykOwczarz/Tank-Survival"
                                     >
                                         <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
                                     </Button>
                                     <Button
                                         variant="contained"
                                         color="default"
-                                        href="./"
+                                        href="https://www.youtube.com/watch?v=iNohO_cFge0"
                                     >
-                                        Info
+                                        Video
+                                    </Button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className='projectBox'>
+                    <img src={Darkness} alt="Profile" width="320" height="180" />
+                    <div className='projectInfo'>
+                        <h2>Darkness</h2>
+                        <div className='projectDescription'>
+                            <p className='descriptionP'>
+                                C++ project using a Cherno Project derived graphical
+                                engine. The aim of this project was to learn how to create and change
+                                an engine to add models, animation, sound, AI and game logic into a
+                                relatively barebones C++ OpenGL engine.
+                            </p>
+                            <div className='technologies'>
+                                <p>Technologies used:</p>
+                                <ul>
+                                    <li>
+                                        C++
+                                    </li>
+                                    <li>
+                                        OpenGL
+                                    </li>
+                                    <li>
+                                        Github
+                                    </li>
+                                </ul>
+                                <div className='buttons'>
+                                    <Button
+                                        variant="contained"
+                                        color="default"
+                                        href="https://github.com/PatrykOwczarz/Darkness"
+                                    >
+                                        <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
+                                    </Button>
+                                    <Button
+                                        variant="contained"
+                                        color="default"
+                                        href="https://www.youtube.com/watch?v=98PIADZ3Cx0"
+                                    >
+                                        Video
                                     </Button>
 
                                 </div>
