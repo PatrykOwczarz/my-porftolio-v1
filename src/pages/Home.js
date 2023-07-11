@@ -14,7 +14,7 @@ function Home() {
                 </div>
                 <div className='textDetails'>
                     <h1>Patryk Owcarz</h1>
-                    <h2>Game programmer</h2>
+                    <h2>Game Programmer</h2>
                     <div className="socials">
                         <a href="https://twitter.com/Demkolai"><img src={TwitterIcon} alt="Twitter Icon" width="65" height="50" /></a>
                         <a href="https://github.com/PatrykOwczarz"><img src={GithubIcon} alt="Github Icon" width="50" height="50" /></a>
@@ -30,7 +30,7 @@ function Home() {
             </h2>
             <div className='infoBlocks'>
                 <div className='infoBox'>
-                    <h1>Games programmer</h1>
+                    <h1>Game Programmer</h1>
                     <p>
                         Computer Science with Games Technology Graduate with close to a decade
                         of Game development experience with various engines. Including Unity, a Cherno
