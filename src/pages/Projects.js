@@ -15,6 +15,105 @@ function Projects() {
             <div className='projectLayout'>
 
                 <div className='projectBox'>
+                    <img src={TankSurvival} alt="Profile" width="320" height="180" />
+                    <div className='projectInfo'>
+                        <h2>Tank Survival</h2>
+                        <div className='projectDescription'>
+                            <p className='descriptionP'>
+                                C++ project using an OpenGL engine.
+                                I created a track using a Catmull-Rom spline on which
+                                the tank auto traverses while the player dodges or destroys
+                                obstacles in the way. The aim of this project was to learn how
+                                rendering is done via buffers and shaders in OpenGL.
+                            </p>
+                            <div className='technologies'>
+                                <p>Technologies used:</p>
+                                <ul>
+                                    <li>
+                                        C++
+                                    </li>
+                                    <li>
+                                        OpenGL
+                                    </li>
+                                    <li>
+                                        Github
+                                    </li>
+                                </ul>
+                                <div className='buttons'>
+                                    <Button
+                                        variant="contained"
+                                        color="default"
+                                        href="https://github.com/PatrykOwczarz/Tank-Survival"
+                                    >
+                                        <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
+                                    </Button>
+                                    <Button
+                                        variant="contained"
+                                        color="default"
+                                        href="https://www.youtube.com/watch?v=iNohO_cFge0"
+                                    >
+                                        Video
+                                    </Button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className='projectBox'>
+                    <img src={Darkness} alt="Profile" width="320" height="180" />
+                    <div className='projectInfo'>
+                        <h2>Darkness</h2>
+                        <div className='projectDescription'>
+                            <p className='descriptionP'>
+                                C++ project using a Cherno Project derived graphical
+                                engine. The aim of this project was to learn how to create and change
+                                an engine to add models, animation, sound, AI and game logic into a
+                                relatively barebones C++ OpenGL engine.
+                            </p>
+                            <div className='technologies'>
+                                <p>Technologies used:</p>
+                                <ul>
+                                    <li>
+                                        C++
+                                    </li>
+                                    <li>
+                                        OpenGL
+                                    </li>
+                                    <li>
+                                        Github
+                                    </li>
+                                </ul>
+                                <div className='buttons'>
+                                    <Button
+                                        variant="contained"
+                                        color="default"
+                                        href="https://github.com/PatrykOwczarz/Darkness"
+                                    >
+                                        <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
+                                    </Button>
+                                    <Button
+                                        variant="contained"
+                                        color="default"
+                                        href="https://www.youtube.com/watch?v=98PIADZ3Cx0"
+                                    >
+                                        Video
+                                    </Button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className='projectBox'>
                     <img src={RealmWarp} alt="Realm-Warp" width="320" height="180" />
                     <div className='projectInfo'>
                         <h2>Realm Warp</h2>
@@ -138,105 +237,6 @@ function Projects() {
                                         variant="contained"
                                         color="default"
                                         href="https://www.youtube.com/watch?v=-8v2ylwdyPk"
-                                    >
-                                        Video
-                                    </Button>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div className='projectBox'>
-                    <img src={TankSurvival} alt="Profile" width="320" height="180" />
-                    <div className='projectInfo'>
-                        <h2>Tank Survival</h2>
-                        <div className='projectDescription'>
-                            <p className='descriptionP'>
-                                C++ project using an OpenGL engine.
-                                I created a track using a Catmull-Rom spline on which
-                                the tank auto traverses while the player dodges or destroys
-                                obstacles in the way. The aim of this project was to learn how
-                                rendering is done via buffers and shaders in OpenGL.
-                            </p>
-                            <div className='technologies'>
-                                <p>Technologies used:</p>
-                                <ul>
-                                    <li>
-                                        C++
-                                    </li>
-                                    <li>
-                                        OpenGL
-                                    </li>
-                                    <li>
-                                        Github
-                                    </li>
-                                </ul>
-                                <div className='buttons'>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://github.com/PatrykOwczarz/Tank-Survival"
-                                    >
-                                        <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
-                                    </Button>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://www.youtube.com/watch?v=iNohO_cFge0"
-                                    >
-                                        Video
-                                    </Button>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div className='projectBox'>
-                    <img src={Darkness} alt="Profile" width="320" height="180" />
-                    <div className='projectInfo'>
-                        <h2>Darkness</h2>
-                        <div className='projectDescription'>
-                            <p className='descriptionP'>
-                                C++ project using a Cherno Project derived graphical
-                                engine. The aim of this project was to learn how to create and change
-                                an engine to add models, animation, sound, AI and game logic into a
-                                relatively barebones C++ OpenGL engine.
-                            </p>
-                            <div className='technologies'>
-                                <p>Technologies used:</p>
-                                <ul>
-                                    <li>
-                                        C++
-                                    </li>
-                                    <li>
-                                        OpenGL
-                                    </li>
-                                    <li>
-                                        Github
-                                    </li>
-                                </ul>
-                                <div className='buttons'>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://github.com/PatrykOwczarz/Darkness"
-                                    >
-                                        <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
-                                    </Button>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://www.youtube.com/watch?v=98PIADZ3Cx0"
                                     >
                                         Video
                                     </Button>
