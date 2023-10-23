@@ -18,7 +18,7 @@ function Home() {
                     <div className="socials">
                         <a href="https://twitter.com/Demkolai"><img src={TwitterIcon} alt="Twitter Icon" width="65" height="50" /></a>
                         <a href="https://github.com/PatrykOwczarz"><img src={GithubIcon} alt="Github Icon" width="50" height="50" /></a>
-                        <a href="https://www.linkedin.com/in/patryk-owczarz-2071a2196/"><img src={LinkedInIcon} alt="LinkedIn Icon" width="50" height="50" /></a>
+                        <a href="https://www.linkedin.com/in/patryk-owczarz/"><img src={LinkedInIcon} alt="LinkedIn Icon" width="50" height="50" /></a>
                     </div>
                 </div>
             </div>

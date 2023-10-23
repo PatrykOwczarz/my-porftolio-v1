@@ -1,0 +1,47 @@
+.title {
+    margin: 50px 0px;
+}
+
+.main hr {
+    height: 2px;
+    width: 90%;
+    background-color: #176B87;
+    border: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.text p {
+    text-align: start;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+
+}
