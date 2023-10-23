@@ -7,8 +7,11 @@ import TankSurvival from '../assets/images/tank-survival.png'
 import Darkness from '../assets/images/darkness.png'
 import GithubIcon from '../assets/images/Github.png'
 import Button from '@material-ui/core/Button';
+import { Link, useLocation } from 'react-router-dom'
 
 function Projects() {
+
+
     return (
         <div className='projectsPage'>
             <h1>PROJECTS</h1>
@@ -179,20 +182,9 @@ function Projects() {
                                     </li>
                                 </ul>
                                 <div className='buttons'>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://github.com/PatrykOwczarz/The-Dungeon"
-                                    >
-                                        <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
-                                    </Button>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://www.youtube.com/watch?v=a_SEyTaseDs"
-                                    >
-                                        Video
-                                    </Button>
+
+                                    <Link className='linkButton' to="/projects/thedungeon">More Info</Link>
+
 
                                 </div>
                             </div>

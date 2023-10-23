@@ -16,12 +16,13 @@
     align-items: center;
 }
 
-.intro {
+.section {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 70vw;
 }
 
 .text {
@@ -29,7 +30,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 60%;
+    width: 800px;
+    margin-bottom: 20px;
 }
 
 .text p {
@@ -42,6 +44,112 @@
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    width: 80%;
+    width: 70%;
+
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+}
+
+.media img {
+    border: 2px solid black;
+    transition: transform 0.3s;
+    margin: 20px 0px;
+
+}
+
+.media img:hover {
+    transform: scale(1.2) translate(0, 0);
+    border-right: 2px solid black;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 30px 0px;
+}
+
+
+.button a {
+    color: black;
+}
+
+.button img {
+    border: 0px solid white;
+    margin: 0px;
+    padding-left: 8px;
+}
+
+.button img:hover {
+    border: 0px solid white;
+    transform: none;
+
+}
+
+
+
+
+@media (max-width: 700px) {
+
+    .section {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .text {
+        width: auto;
+        text-align: left;
+    }
+
+    .lists {
+        width: 80vw;
+        justify-content: space-between;
+    }
+
+    .media {
+        width: auto;
+    }
+
+    .button {
+        justify-content: space-around;
+        align-items: center;
+        width: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .media iframe {
+        width: 320px;
+        height: 180px;
+    }
+
+    .media img {
+        border: 2px solid black;
+        width: 320px;
+        height: 180px;
+        transition: none;
+        margin-bottom: 20px;
+    }
+
+    .media img:hover {
+        transform: none;
+    }
+
+    .button img {
+        border: 0px solid white;
+        width: 30px;
+        height: 30px;
+        margin-bottom: 0px;
+    }
 
 }

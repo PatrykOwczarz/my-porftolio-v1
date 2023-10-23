@@ -85,6 +85,15 @@
 
 }
 
+.linkButton {
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+}
+
+.linkButton:hover {
+    background-color: #cccccc;
+}
+
 .buttons a {
     color: black;
 }
