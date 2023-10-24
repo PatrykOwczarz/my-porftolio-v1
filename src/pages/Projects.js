@@ -43,20 +43,8 @@ function Projects() {
                                     </li>
                                 </ul>
                                 <div className='buttons'>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://github.com/PatrykOwczarz/Tank-Survival"
-                                    >
-                                        <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
-                                    </Button>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://www.youtube.com/watch?v=iNohO_cFge0"
-                                    >
-                                        Video
-                                    </Button>
+
+                                    <Link className='linkButton' to="/projects/tanksurvival">More Info</Link>
 
                                 </div>
 
@@ -92,20 +80,8 @@ function Projects() {
                                     </li>
                                 </ul>
                                 <div className='buttons'>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://github.com/PatrykOwczarz/Darkness"
-                                    >
-                                        <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
-                                    </Button>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://www.youtube.com/watch?v=98PIADZ3Cx0"
-                                    >
-                                        Video
-                                    </Button>
+
+                                    <Link className='linkButton' to="/projects/darkness">More Info</Link>
 
                                 </div>
 
@@ -143,13 +119,7 @@ function Projects() {
                                 </ul>
                                 <div className='buttons'>
 
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://www.youtube.com/watch?v=KxAylqFRk6Q"
-                                    >
-                                        Video
-                                    </Button>
+                                    <Link className='linkButton' to="/projects/realmwarp">More Info</Link>
 
                                 </div>
                             </div>
@@ -218,20 +188,8 @@ function Projects() {
                                     </li>
                                 </ul>
                                 <div className='buttons'>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://github.com/PatrykOwczarz/Tank-Game"
-                                    >
-                                        <img src={GithubIcon} alt="Github Icon" width="30" height="30"></img>
-                                    </Button>
-                                    <Button
-                                        variant="contained"
-                                        color="default"
-                                        href="https://www.youtube.com/watch?v=-8v2ylwdyPk"
-                                    >
-                                        Video
-                                    </Button>
+
+                                    <Link className='linkButton' to="/projects/tankgame">More Info</Link>
 
                                 </div>
 
