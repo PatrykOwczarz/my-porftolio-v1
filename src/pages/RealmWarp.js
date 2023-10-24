@@ -18,22 +18,22 @@ function RealmWarp() {
                     <h1>Introduction</h1>
                     <h2>Summary:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        C# project using Unity. Inspired by Half-life 2 and Control,
+                        Realm Warp is a physics manipulation game focused on telekinesis,
+                        levitation and force push mechanics to defeat enemies and navigate the game world.
                     </p>
                     <div className='lists'>
                         <div>
                             <h3>Core functionality:</h3>
                             <ul>
                                 <li>
-                                    C++
+                                    Telekinetic Gravity Manipulation system
                                 </li>
                                 <li>
-                                    OpenGL
+                                    Force Push
                                 </li>
                                 <li>
-                                    Github
+                                    Ragdolls
                                 </li>
                             </ul>
                         </div>
@@ -55,9 +55,11 @@ function RealmWarp() {
 
                     <h2>My Contribution:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        This was a solo project for my individual project module in my final
+                        year of university. The title for my dissertation and the premise for
+                        this project was: "Creating a 3D Physics Based Action Game in Unity"
+                        I used various video tutorials on YouTube over the course of the project
+                        to gain knowledge on how to implement the systems.
                     </p>
                 </div>
                 <div className='media'>
@@ -92,17 +94,19 @@ function RealmWarp() {
                     <h1>Purpose and Goal</h1>
                     <h2>Importance of Project:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        This was a passion project focused on learning how to create systems
+                        that manipulate gravity and simulate supernatural powers.
                     </p>
 
 
                     <h2>Expected outcome of Project</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        The outcome of the project was to create a game in which the player
+                        controlled a supernatural character capable of picking up objects
+                        and throwing them in a desired direction. Other powers would include
+                        force push and levitation which would only be available if the player
+                        entered a "dark realm" through picking up a powerup or toggling it on
+                        in some way.
                     </p>
 
                     <h2>Initial Design:</h2>

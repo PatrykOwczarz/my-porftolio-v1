@@ -16,9 +16,7 @@ function TheDungeon() {
                     <h1>Introduction</h1>
                     <h2>Summary:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        WORK IN PROGRESS, GITHUB HAS MORE INFO
                     </p>
                     <div className='lists'>
                         <div>
