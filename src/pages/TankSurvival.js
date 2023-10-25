@@ -165,11 +165,11 @@ function TankSurvival() {
             </div>
 
             <hr></hr>
-            {/* Lessons Learnt Section*/}
+            {/* Reflection on Project Outcome Section*/}
             <div className='section'>
                 <div className='text'>
-                    <h1>Lessons Learnt</h1>
-                    <h2>What I Learnt:</h2>
+                    <h1>Reflection on Project Outcome</h1>
+                    <h2>Areas of Improvement:</h2>
 
                     <ul>
                         <li>

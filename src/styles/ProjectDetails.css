@@ -38,6 +38,24 @@
     text-align: start;
 }
 
+.text ul {
+    text-align: start;
+}
+
+.text a {
+    color: black;
+    background-color: #e0e0e0;
+    padding: 5px;
+}
+
+.text a:hover {
+    background-color: #cccccc;
+}
+
+.text li {
+    padding-top: 5px;
+}
+
 .lists {
     display: flex;
     flex-direction: row;

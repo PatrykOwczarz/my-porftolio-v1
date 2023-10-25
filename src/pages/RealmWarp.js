@@ -2,6 +2,11 @@ import React from 'react'
 import '../styles/ProjectDetails.css'
 import Button from '@material-ui/core/Button';
 import Picture1 from '../assets/images/realm-warp.jpg'
+import Picture2 from '../assets/images/realm-warp-level-design.jpg'
+import Picture3 from '../assets/images/realm-warp-gravity-flowchart.jpg'
+import Picture4 from '../assets/images/realm-warp-ragdoll.jpg'
+import Picture5 from '../assets/images/realm-warp-ai.jpg'
+import Picture6 from '../assets/images/realm-warp-navmesh.jpg'
 import GithubIcon from '../assets/images/Github.png'
 
 function RealmWarp() {
@@ -111,21 +116,30 @@ function RealmWarp() {
 
                     <h2>Initial Design:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        The initial design was slightly different than the final implementation.
+                        The plan was to implement the dark realm as a tool for the player to switch
+                        into on demand and have a limited amount of total time per level to be in
+                        that realm. Due to time constraints linked to Covid, the implementation
+                        had to be simplified to a power up orb that would enable the use of
+                        force push and levitation for a specific time.
                     </p>
 
                     <h2>Preliminary Planning:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        The planning phase involved extensive research on existing systems
+                        present in other games. The main inspiration was the game Control by
+                        Remedy Entertainment. I found that the gameplay features present in the
+                        game were aligned with my vision for my game. The main protagonist had
+                        access to telekinetic powers which followed a 3 part effect. The object
+                        would animate and float into the air slightly, then fly towards the player
+                        and float above the right hand of the character. The player could then
+                        launch the object at the crosshair location. This was the base idea
+                        upon which I built my telekinetic system.
                     </p>
                 </div>
                 <div className='media'>
                     <img src={Picture1} alt="Profile" width="480" height="270" />
-                    <img src={Picture1} alt="Profile" width="480" height="270" />
+                    <img src={Picture2} alt="Profile" width="480" height="270" />
 
                 </div>
             </div>
@@ -135,66 +149,189 @@ function RealmWarp() {
             <div className='section'>
                 <div className='text'>
                     <h1>Notable Achievements and Learnings</h1>
-                    <h2>Turn-Based Combat</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
-                    </p>
+                    <h2>Telekinetic gravity manipulation system</h2>
+                    <ul>
+                        <li>
+                            An implementation in 2 parts, A raycast system and the main
+                            telekinesis controller.
+                        </li>
+                        <li>
+                            First a raycast would be shot from the hand of the player character
+                            to the crosshair position. If the object would be a valid object with
+                            the object tag "Telekinesis" then the object would be manipulated using
+                            the telekinesis controller.
+                        </li>
+                        <li>
+                            The telekinesis controller system uses a finite state machine with 4 states:
+                            WAITING, LIFT, PULL and THROW. The system starts out in the WAITING
+                            state until the raycast system returns a valid object.
+                        </li>
+                        <li>
+                            The system then transitions to the LIFT state which lifts the object 2 units
+                            into the air and then transfers control to the PULL state which pulls the
+                            object towards the players hand.
+                        </li>
+                        <li>
+                            The object would then levitate by the players hand awaiting player input.
+                            When the player presses the left mouse button the state transitions to
+                            THROW and the object would be propelled with a force based on the mass of
+                            the object being carried in the direction of the crosshair.
+                        </li>
+                        <li>
+                            Finally the state returns to WAITING for another object to be thrown.
+                        </li>
+                    </ul>
+
+                    <p>Link to code on Github: <a href="https://github.com/PatrykOwczarz/Realm-Warp/blob/main/Realm%20Warp/Assets/Scripts/TelekinesisController.cs">TelekinesisController.cs</a></p>
 
 
-                    <h2>Battle Calculations</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
-                    </p>
+                    <h2>Force Push</h2>
+                    <ul>
+                        <li>
+                            A GameObject with a box collider was placed in front of the player.
+                        </li>
+                        <li>
+                            A script called ForcePush.cs was implemented which would activate and deactivate
+                            the collider of the aforementioned GameObject.
+                        </li>
+                        <li>
+                            To force push, the player would first have to pickup a dark realm orb
+                            and then press the Q key.
+                        </li>
+                        <li>
+                            The force push was simulated by activating the box collider which would apply a
+                            force to any objects caught in the box collider in a direction away from the
+                            player location. The collider would then deactivate unless Q is pressed again.
+                        </li>
+
+                    </ul>
+
+                    <p>Link to code on Github: <a href="https://github.com/PatrykOwczarz/Realm-Warp/blob/main/Realm%20Warp/Assets/Scripts/ForcePush.cs">ForcePush.cs</a></p>
+
+                    <h2>Ragdolls</h2>
+                    <ul>
+                        <li>
+                            Used Unity's Ragdoll builder. Input each joint of the player model into
+                            the builder to create rigidbodies at each limb. Each rigidbody acts
+                            independently based on gravity. Unity would assign each limb/body
+                            part with a mass to simulate ragdoll behaviour.
+                        </li>
+                        <li>
+                            I wrote a script that would deactivate the animation manager
+                            and enable the rigidbodies of each limb, causing the model to
+                            enter ragdoll mode. Ragdoll mode would only be used when the enemy
+                            was defeated.
+                        </li>
+
+                    </ul>
+
+                    <p>Link to code on Github: <a href="https://github.com/PatrykOwczarz/Realm-Warp/blob/main/Realm%20Warp/Assets/Scripts/Ragdoll.cs">Ragdoll.cs</a></p>
 
                     <h2>Technical issues along the way:</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
-                    </p>
 
-                    <h2>How I solved these issues:</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
-                    </p>
+                    <ul>
+                        <li>
+                            Problem:
+                            <ul>
+                                <li>
+                                    Initial implementation of the PULL functionality did not work as
+                                    intended. The object would fly towards a specific location relative
+                                    to the player character position. That position was a single coordinate
+                                    in the game world. This meant that unless the object exactly flew into
+                                    that spot, it would begin orbiting around the player to try and reach
+                                    that specific spot.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Solution:
+                            <ul>
+                                <li>
+                                    Wrote a coroutine which would update the position simultaneously
+                                    with other actions in the game. I also limited the max velocity
+                                    of the object to make it track the location easier.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Problem:
+                            <ul>
+                                <li>
+                                    The ragdoll does not react naturally when hit by the object
+                                    being projected from the telekinesis system. Can be seen in
+                                    the YouTube demo. The enemy is hit and flies in the opposite
+                                    direction to the cube being thrown. Not sure what the root cause
+                                    is but I imagine it is to do with the way the collision applies
+                                    the force to the ragdolls individual limbs. The sword collision
+                                    also has something to do with this as it absorbs the impact of the
+                                    cube without affecting the overall movement of the ragdoll.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            Solution:
+                            <ul>
+                                <li>
+                                    No solution, expanded upon in Areas of improvement section.
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
                 </div>
                 <div className='media'>
-                    <img src={Picture1} alt="Profile" width="480" height="270" />
-                    <img src={Picture1} alt="Profile" width="480" height="270" />
+                    <img src={Picture3} alt="Profile" width="400" height="500" />
+                    <img src={Picture4} alt="Profile" width="480" height="400" />
 
                 </div>
             </div>
 
             <hr></hr>
-            {/* Lessons Learnt Section*/}
+            {/* Reflection on Project Outcome Section*/}
             <div className='section'>
                 <div className='text'>
-                    <h1>Lessons Learnt</h1>
-                    <h2>What I Learnt:</h2>
+                    <h1>Reflection on Project Outcome</h1>
+                    <h2>Areas of Improvement:</h2>
 
                     <ul>
                         <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            There is limited amounts of objects that can be picked up.
+                            This was due to several bugs encountered during development
+                            so the current implementation was a compromise to finish the
+                            main functionality on time for my deadline.
                         </li>
                         <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            The enemy AI was not very complex, following a simple state
+                            machine implementation which just followed the player if they
+                            entered their aggro radius.
                         </li>
                         <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            Some bugs with the ragdoll colision causing the enemy model
+                            to move in the opposite direction that they are supposed to.
+                            This would be a priority as I believe a fix can be made by tweaking
+                            the behaviour after the enemy is defeated. Disabling collision for
+                            the sword can also help in properly transfering momentum to the ragdoll.
+                        </li>
+                        <li>
+                            Level design could do with some work. Work on expanding and
+                            improving the "adventure" level to make it more interesting.
+                            An improvment would be to incentivise use of the levitation and
+                            telekinesis to solve puzzles or require it for traversal.
                         </li>
                     </ul>
 
                     <h2>Evaluation of tools used:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        I think Unity was a good choice for this project as my focus was on
+                        implementing the system and not on visual fidelity which Unreal engine
+                        has an advantage in. I have used some "preview" packages which were not
+                        officially implemented as part of the Unity engine package which could've
+                        cause some bugs in implementation as the tools have not been fully tested.
+                        The preview package aided in creating the aim animation using IK rigging.
                     </p>
 
                     <h2>What I would have done differently:</h2>
@@ -212,8 +349,8 @@ function RealmWarp() {
                     </p>
                 </div>
                 <div className='media'>
-                    <img src={Picture1} alt="Profile" width="480" height="270" />
-                    <img src={Picture1} alt="Profile" width="480" height="270" />
+                    <img src={Picture5} alt="Profile" width="480" height="270" />
+                    <img src={Picture6} alt="Profile" width="480" height="270" />
 
                 </div>
             </div>
