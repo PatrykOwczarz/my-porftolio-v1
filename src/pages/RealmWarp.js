@@ -25,7 +25,9 @@ function RealmWarp() {
                     <p>
                         C# project using Unity. Inspired by Half-life 2 and Control,
                         Realm Warp is a physics manipulation game focused on telekinesis,
-                        levitation and force push mechanics to defeat enemies and navigate the game world.
+                        levitation and force push mechanics to defeat enemies and navigate the
+                        game world. It also features a "dark realm" in which the player becomes
+                        stronger and gains access to more powers.
                     </p>
                     <div className='lists'>
                         <div>
@@ -52,7 +54,7 @@ function RealmWarp() {
                                     Unity
                                 </li>
                                 <li>
-                                    Github
+                                    Git/Github
                                 </li>
                             </ul>
                         </div>
@@ -104,14 +106,13 @@ function RealmWarp() {
                     </p>
 
 
-                    <h2>Expected outcome of Project</h2>
+                    <h2>Initial Vision:</h2>
                     <p>
-                        The outcome of the project was to create a game in which the player
-                        controlled a supernatural character capable of picking up objects
+                        The initial vision for the project was to create a game in which the player
+                        controlled a character with supernatural abilities capable of picking up objects
                         and throwing them in a desired direction. Other powers would include
                         force push and levitation which would only be available if the player
-                        entered a "dark realm" through picking up a powerup or toggling it on
-                        in some way.
+                        entered a "dark realm" through pressing a key for a limited time.
                     </p>
 
                     <h2>Initial Design:</h2>
@@ -322,6 +323,13 @@ function RealmWarp() {
                             An improvment would be to incentivise use of the levitation and
                             telekinesis to solve puzzles or require it for traversal.
                         </li>
+                        <li>
+                            Adding sound would enhance the experience a lot. After recently playing
+                            Control, I realised that what really makes the game feel special is the "whooshing"
+                            sound that is played every time you pick up an object. Adding some sound
+                            for force push and lifting and throwing objects would really amplify the
+                            experience.
+                        </li>
                     </ul>
 
                     <h2>Evaluation of tools used:</h2>
@@ -336,16 +344,24 @@ function RealmWarp() {
 
                     <h2>What I would have done differently:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        The only thing I would do differently was to implement the dark realm
+                        in a different way. I would implement it as a "cooldown ability" commonly
+                        implemented in MMORPG's. The player would press the button to enter the dark
+                        realm for 10-15 secs and that ability would go on a 1 min cooldown before it
+                        could be used again. This would give the player more freedom and choice when
+                        they could use the darkr realm powers rather than tie the powers to a powerup
+                        in a specific location in the game level.
                     </p>
 
                     <h2>Final takeaways moving forward:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        I am happy how the project turned out. I will come back to this project
+                        in the future to fix some of the bugs with the ragdoll physics and rework
+                        the dark realm as mentioned in the above section. I have learned a lot
+                        about animation based gameplay systems and how to incorporate ragdoll physics
+                        into the game. Working on the telekinesis system made me appreciate the system
+                        present in Control. The system is incredibly polished and most of the environment
+                        can be broken apart and manipulated in some way.
                     </p>
                 </div>
                 <div className='media'>

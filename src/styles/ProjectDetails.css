@@ -52,6 +52,10 @@
     background-color: #cccccc;
 }
 
+.linksinlist a {
+    padding: 0px 10px;
+}
+
 .text li {
     padding-top: 5px;
 }

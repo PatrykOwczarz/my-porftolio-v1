@@ -16,20 +16,22 @@ function TheDungeon() {
                     <h1>Introduction</h1>
                     <h2>Summary:</h2>
                     <p>
-                        WORK IN PROGRESS, GITHUB HAS MORE INFO
+                        C# project using Unity. Inspired by original Final Fantasy games
+                        and the pokemon games, The Dungeon is a Turn-based RPG with
+                        multiple classes set in a dark fantasy dungeon.
                     </p>
                     <div className='lists'>
                         <div>
                             <h3>Core functionality:</h3>
                             <ul>
                                 <li>
-                                    C++
+                                    Turn-based Combat
                                 </li>
                                 <li>
-                                    OpenGL
+                                    Level creation
                                 </li>
                                 <li>
-                                    Github
+                                    RPG stat system
                                 </li>
                             </ul>
                         </div>
@@ -43,7 +45,7 @@ function TheDungeon() {
                                     Unity
                                 </li>
                                 <li>
-                                    Github
+                                    Git/Github
                                 </li>
                             </ul>
                         </div>
@@ -51,9 +53,7 @@ function TheDungeon() {
 
                     <h2>My Contribution:</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut consequat semper viverra nam libero justo laoreet.
+                        WORK IN PROGRESS, MORE INFO ON GITHUB
                     </p>
                 </div>
                 <div className='media'>
@@ -94,7 +94,7 @@ function TheDungeon() {
                     </p>
 
 
-                    <h2>Expected outcome of Project</h2>
+                    <h2>Initial Vision:</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
