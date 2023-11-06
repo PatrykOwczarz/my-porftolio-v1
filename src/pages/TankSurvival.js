@@ -68,7 +68,7 @@ function TankSurvival() {
                     <p>
                         Solo project done as part of my Computer Graphics module in my third
                         year of university. I used a template C++ OpenGL engine provided by
-                        our University lecturer to use as a base for the project. The project
+                        our University lecturer as a base for the project. The project
                         features some meshes downloaded from the internet and some shapes and
                         models created by myself from scratch. From defining vertices to providing
                         textures and texcoords and shading.
@@ -120,14 +120,14 @@ function TankSurvival() {
                         it in some interesting way to create either a game or a cinematic experience.
                         I ended up creating a game in which the premise was to go around a path in a tank
                         and avoid obstacles and shoot barrels. This would be similar to games such as
-                        Temple Run or Subway Surfers where you dont move forward, just left and right.
+                        Temple Run or Subway Surfers where you don't move forward, just left and right.
                     </p>
 
                     <h2>Initial Design:</h2>
                     <p>
-                        The initial design focused mostly on designing the path and creating the camera
+                        The initial design focused mostly on the path and creating the camera
                         angles. The game has 3 camera modes: first-person with a view of the tank barrel,
-                        a third-person camera as seen in the demo video and a top down birds eye view.
+                        a third-person camera as seen in the demo video and a top down bird's eye view.
                         The path was supposed to feature some slight slants horizontally so the path would be interesting
                         and not just flat but due to Covid I had to cut some corners to make sure the core
                         functionality would be implemented on time.
@@ -195,8 +195,8 @@ function TankSurvival() {
                     <h2>Camera and various shader effects:</h2>
                     <ul>
                         <li>
-                            I have implemented the following camera angles: Top down view (birdseye view),
-                            First person which was looking just above the barrel of the tank and Third Person
+                            I have implemented the following camera angles: Top down view (bird's eye view),
+                            first person which was looking just above the barrel of the tank and third person
                             view which was behind the tank.
                         </li>
                         <li>
@@ -205,7 +205,7 @@ function TankSurvival() {
                             above implementation.
                         </li>
                         <li>
-                            I also implemented raidal blur, fog and a night time mode with a
+                            I also implemented raidal blur, fog and a night-time mode with a
                             spotlight attached to it.
                         </li>
                     </ul>
@@ -237,7 +237,7 @@ function TankSurvival() {
                             <ul>
                                 <li>
                                     There were no game breaking issues along the way. The major issue
-                                    would be the lighting, I struggled to get the ambient lighting
+                                    would be the lighting; I struggled to get the ambient lighting
                                     correct and to add the spotlight correctly.
                                 </li>
                             </ul>
@@ -247,9 +247,9 @@ function TankSurvival() {
                             Solution:
                             <ul>
                                 <li>
-                                    I ended up adding a spotlight to the tank only, the initial plan was
+                                    I ended up adding a spotlight to the tank only; the initial plan was
                                     to add night lamps with spotlights next to the track to light the way
-                                    when the night time mode was enabled.
+                                    when the night-time mode was enabled.
                                 </li>
                             </ul>
                         </li>
@@ -281,7 +281,7 @@ function TankSurvival() {
                             main cpp file for the project.
                         </li>
                         <li>
-                            Other than that I think I am happy with how this game turned out,
+                            Other than that, I think I am happy with how this game turned out,
                             considering it was a small project that I did for a University module.
                         </li>
                     </ul>
@@ -299,7 +299,7 @@ function TankSurvival() {
 
                     <h2>What I would have done differently:</h2>
                     <p>
-                        I would focus more time to creating an interesting path for the
+                        I would focus more time on creating an interesting path for the
                         game. I would incorporate more horizontal variety to create a more
                         realistic track overall.
                     </p>

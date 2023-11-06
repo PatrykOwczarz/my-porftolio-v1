@@ -32,8 +32,8 @@ function Home() {
                 <div className='infoBox'>
                     <h1>Game Programmer</h1>
                     <p>
-                        Computer Science with Games Technology Graduate with close to a decade
-                        of Game development experience with various engines. Including Unity, a Cherno
+                        Computer Science with Games Technology Graduate, with close to a decade
+                        of Game development experience with various engines. Includes Unity, a Cherno
                         project derived C++ engine using OpenGL and most recently Unreal.
                     </p>
                     <p>
@@ -50,21 +50,21 @@ function Home() {
                         for RPGs and later D&D.
                     </p>
                     <p>
-                        During University I played CS:GO at an amateur pro level,
-                        which taught me effective communication and teamwork. To this day I raid in a
+                        During university, I played CS:GO at an amateur pro level,
+                        which taught me effective communication and teamwork. To this day, I raid in a
                         Mythic top 1000 world ranking guild in World of Warcraft.
                     </p>
                 </div>
                 <div className='infoBox'>
                     <h1>Music Enthusiast</h1>
                     <p>
-                        My favourite music genres are metal, rock and EDM. However, I can find enjoyment
+                        My favourite music genres are Metal, Rock and EDM. However, I can find enjoyment
                         in most music genres. I know how to play the drums and my hidden party trick is
                         playing guitar hero on expert difficulty.
                     </p>
                     <p>
                         My favourite artists are Alter Bridge,
-                        Polyphia and most recently Fred again..
+                        Polyphia, Fred Again.. and most recently Sleep Token.
                     </p>
                 </div>
             </div>

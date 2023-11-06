@@ -5,8 +5,6 @@ import TheDungeon from '../assets/images/the-dungeon.png'
 import TankGame from '../assets/images/tank-game.png'
 import TankSurvival from '../assets/images/tank-survival.png'
 import Darkness from '../assets/images/darkness.png'
-import GithubIcon from '../assets/images/Github.png'
-import Button from '@material-ui/core/Button';
 import { Link, useLocation } from 'react-router-dom'
 
 function Projects() {
@@ -23,7 +21,7 @@ function Projects() {
                         <h2>Tank Survival</h2>
                         <div className='projectDescription'>
                             <p className='descriptionP'>
-                                C++ project using an OpenGL engine.
+                                C++ project using an OpenGL engine. <br></br>
                                 I created a track using a Catmull-Rom spline on which
                                 the tank auto traverses while the player dodges or destroys
                                 obstacles in the way. The aim of this project was to learn how
