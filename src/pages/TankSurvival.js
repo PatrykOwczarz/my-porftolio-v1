@@ -236,8 +236,9 @@ function TankSurvival() {
                             Problem:
                             <ul>
                                 <li>
-                                    There were no game breaking issues along the way. The major issue
-                                    would be the lighting; I struggled to get the ambient lighting
+                                    There were no game breaking issues along the way.
+                                    The major issue would be with the lighting where
+                                    I struggled to get the ambient setting
                                     correct and to add the spotlight correctly.
                                 </li>
                             </ul>
@@ -247,7 +248,7 @@ function TankSurvival() {
                             Solution:
                             <ul>
                                 <li>
-                                    I ended up adding a spotlight to the tank only; the initial plan was
+                                    I ended up adding a spotlight to the tank. The initial plan was
                                     to add night lamps with spotlights next to the track to light the way
                                     when the night-time mode was enabled.
                                 </li>

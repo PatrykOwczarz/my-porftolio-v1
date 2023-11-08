@@ -121,7 +121,7 @@ function RealmWarp() {
                         The plan was to implement the dark realm as a tool for the player to switch
                         into on demand and have a limited amount of total time per level to be in
                         that realm. Due to time constraints linked to Covid, the implementation
-                        had to be simplified to a power up orb that would enable the use of
+                        had to be simplified to a power-up orb that would enable the use of
                         force push and levitation for a specific time.
                     </p>
 
@@ -150,7 +150,7 @@ function RealmWarp() {
             <div className='section'>
                 <div className='text'>
                     <h1>Notable Achievements and Learnings</h1>
-                    <h2>Telekinetic gravity manipulation system</h2>
+                    <h2>Telekinetic gravity manipulation system:</h2>
                     <ul>
                         <li>
                             An implementation in 2 parts, A raycast system and the main
@@ -186,7 +186,7 @@ function RealmWarp() {
                     <p>Link to code on Github: <a href="https://github.com/PatrykOwczarz/Realm-Warp/blob/main/Realm%20Warp/Assets/Scripts/TelekinesisController.cs">TelekinesisController.cs</a></p>
 
 
-                    <h2>Force Push</h2>
+                    <h2>Force Push:</h2>
                     <ul>
                         <li>
                             A GameObject with a box collider was placed in front of the player.
@@ -209,7 +209,7 @@ function RealmWarp() {
 
                     <p>Link to code on Github: <a href="https://github.com/PatrykOwczarz/Realm-Warp/blob/main/Realm%20Warp/Assets/Scripts/ForcePush.cs">ForcePush.cs</a></p>
 
-                    <h2>Ragdolls</h2>
+                    <h2>Ragdolls:</h2>
                     <ul>
                         <li>
                             Used Unity's Ragdoll builder. Input each joint of the player model into

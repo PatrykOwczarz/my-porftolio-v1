@@ -144,7 +144,7 @@ function TankGame() {
             <div className='section'>
                 <div className='text'>
                     <h1>Notable Achievements and Learnings</h1>
-                    <h2>Object Pooling</h2>
+                    <h2>Object Pooling:</h2>
                     <ul>
                         <li>
                             I have learned how to implement Object pooling in Unity.
@@ -174,7 +174,7 @@ function TankGame() {
                     <p>Link to Pool class: <a href='https://github.com/PatrykOwczarz/Tank-Game/blob/main/Tank%20game/Assets/Scripts/Pool.cs'>Pool.cs</a></p>
 
 
-                    <h2>Health Bar of tanks</h2>
+                    <h2>Health Bar of tanks:</h2>
                     <ul>
                         <li>
                             I was pleased how the health representation turned out in the end.

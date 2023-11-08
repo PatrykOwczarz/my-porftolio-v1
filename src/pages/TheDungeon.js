@@ -147,7 +147,7 @@ function TheDungeon() {
             <div className='section'>
                 <div className='text'>
                     <h1>Notable Achievements and Learnings</h1>
-                    <h2>Turn-Based Combat</h2>
+                    <h2>Turn-Based Combat:</h2>
                     <ul>
                         <li>
                             The combat system uses an FSM which has been implemented
@@ -186,7 +186,7 @@ function TheDungeon() {
                     <p>Link to State Machine implementation: <a href='https://github.com/PatrykOwczarz/The-Dungeon/blob/master/RPG%20test/Assets/Scripts/Turn%20Based%20Combat/StateMachine.cs'>StateMachine.cs</a></p>
 
 
-                    <h2>Battle Calculations</h2>
+                    <h2>Battle Calculations:</h2>
                     <ul>
                         <li>
                             Algorithm that calculated damage done by the player

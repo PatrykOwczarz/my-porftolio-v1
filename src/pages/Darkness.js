@@ -106,7 +106,7 @@ function Darkness() {
                         I learnt how a C++ game engine works using OpenGL as the
                         graphical API. This project lay the foundational knowledge in C++
                         coding and how C++ can be used to write an engine. I used this knowledge
-                        to develop the Tank-Survival project with later in the year.
+                        to develop the Tank-Survival project later in the year.
                     </p>
 
 
@@ -134,8 +134,8 @@ function Darkness() {
                         The initial planning involved researching what makes horror games scary
                         and how I can implement various gameplay mechanics to aid the horror feel.
                         I used Silent Hill and the early Resident Evil games as inspiration.
-                        I planned to implement some fog as limitting the vision of the player
-                        creates an element of uncertainty. Therefore building up the tension in
+                        I planned to implement some fog, as limiting the vision of the player
+                        creates an element of uncertainty, therefore building up the tension in
                         the game. Also the ambient music has an impact on setting the mood in the
                         game, that is why the game features a creepy background soundtrack.
                     </p>
@@ -152,7 +152,7 @@ function Darkness() {
             <div className='section'>
                 <div className='text'>
                     <h1>Notable Achievements and Learnings</h1>
-                    <h2>Creating primitive models and understanding how rendering works.</h2>
+                    <h2>Creating primitive models and understanding how rendering works:</h2>
                     <ul>
                         <li>
                             I have created several primitive shapes made up of vertices which
@@ -161,12 +161,13 @@ function Darkness() {
                         <li>
                             I have worked out normals of said vertices by working out the cross product
                             of a set of vertices. The normals alongside the texcoords and vertices were
-                            stored in VBO's (Vertex Buffer Objects)
+                            stored in VBO's (Vertex Buffer Objects).
                         </li>
                         <li>
-                            This was an intro to rendering which was expanded upon in the
-                            Tank-Survival project which focused on the Rendering side of an
-                            engine featuring the rendering pipeline of OpenGL.
+                            This project was an introduction to rendering in OpenGL. This
+                            foundational knowledge was expanded in the Tank-Survival project
+                            to learn how to effectively import assets and write my own shaders.
+
                         </li>
                         <li>
                             The normals were used for the lighting in the scene.
@@ -175,13 +176,13 @@ function Darkness() {
 
                     <p>Link to main cpp file: <a href='https://github.com/PatrykOwczarz/Darkness/blob/main/Darkness/game/src/example_layer.cpp'> example_layer.cpp</a></p>
 
-                    <h2>Sound and VFX</h2>
+                    <h2>Sound and VFX:</h2>
                     <ul>
                         <li>
                             I used fmod to implement audio into the game.
                         </li>
                         <li>
-                            The game features ambient music, sounds for electric weapon,
+                            The game features ambient music, sounds for the electric weapon powerup,
                             enemy hurt sounds, enemy death sounds, player death sounds and
                             enemy attack sounds.
                         </li>
@@ -211,7 +212,7 @@ function Darkness() {
                             <ul>
                                 <li>
                                     I did not have enough time before the deadline to fix
-                                    this problem but I know how to fix it.
+                                    this problem but I subsequently learned how to fix it.
                                     The fix required me to go into blender and reset the
                                     position of the model and re-export it.
                                 </li>
@@ -235,11 +236,10 @@ function Darkness() {
 
                     <ul>
                         <li>
-                            Level design: Not implemented at all. This was more of a
-                            "tech demo" rather than a game without the level.
+                            Level design: Not implemented at all. This was more of a "tech demo".
                         </li>
                         <li>
-                            AI: Very simple AI based on an FSM that used proximity based
+                            AI: Very simple AI based on an FSM that used proximity-based
                             behaviours. Patrol, if player in range, chase them and deduct
                             damage upon collision. A lot of room for expansion.
                         </li>
@@ -270,14 +270,14 @@ function Darkness() {
                         If I would do this project again, I would focus more on the level design to ensure
                         I had a level to test out the implemented game mechanics. I would say overall the
                         game had some promising gameplay elements but there was no level to use them in.
-                        I ended up spawning the enemies randomly around the platform to simulate a wave
-                        based game mode which was not the initial plan for the project.
+                        I ended up spawning the enemies randomly around the platform to simulate a wave-based
+                        game mode which was not the initial plan for the project.
                     </p>
 
                     <h2>Final takeaways moving forward:</h2>
                     <p>
                         I learnt foundational knowledge in creating a C++ game engine. I used these skills
-                        in the tank-survival project which used a similar engine. The code base was a mess
+                        in the Tank-Survival project which used a similar engine. The code base was a mess
                         but I have learnt the importance of code organisation and refactoring code for
                         reuse from this project which made me a better programmer overall.
                     </p>
