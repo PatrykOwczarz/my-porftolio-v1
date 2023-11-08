@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# My Portfolio
+
+Live deployed website: https://patrykowczarzdev.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
