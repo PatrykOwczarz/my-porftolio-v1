@@ -97,7 +97,7 @@ function Projects() {
                         <div className='projectDescription'>
                             <p className='descriptionP'>
                                 C# project using Unity.
-                                Inspired by Half-life 2 and Control, Realm warp is a
+                                Inspired by Half-Life 2 and Control, Realm Warp is a
                                 physics manipulation game focused on telekinesis, levitation and
                                 force push mechanics to defeat enemies and navigate the game world.
 

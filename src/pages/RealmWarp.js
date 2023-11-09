@@ -23,7 +23,7 @@ function RealmWarp() {
                     <h1>Introduction</h1>
                     <h2>Summary:</h2>
                     <p>
-                        C# project using Unity. Inspired by Half-life 2 and Control,
+                        C# project using Unity. Inspired by Half-Life 2 and Control,
                         Realm Warp is a physics manipulation game focused on telekinesis,
                         levitation and force push mechanics to defeat enemies and navigate the
                         game world. It also features a "dark realm" in which the player becomes
@@ -64,7 +64,7 @@ function RealmWarp() {
                     <p>
                         This was a solo project for my individual project module in my final
                         year of university. The title for my dissertation and the premise for
-                        this project was: "Creating a 3D Physics Based Action Game in Unity"
+                        this project was: "Creating a 3D Physics Based Action Game in Unity".
                         I used various video tutorials on YouTube over the course of the project
                         to gain knowledge on how to implement the systems.
                     </p>
@@ -153,13 +153,13 @@ function RealmWarp() {
                     <h2>Telekinetic gravity manipulation system:</h2>
                     <ul>
                         <li>
-                            An implementation in 2 parts, A raycast system and the main
+                            An implementation in 2 parts - A raycast system and the main
                             telekinesis controller.
                         </li>
                         <li>
                             First a raycast would be shot from the hand of the player character
-                            to the crosshair position. If the object would be a valid object with
-                            the object tag "Telekinesis" then the object would be manipulated using
+                            to the crosshair position. If the object would be a valid one with
+                            the tag "Telekinesis", then this object would be manipulated using
                             the telekinesis controller.
                         </li>
                         <li>
@@ -196,7 +196,7 @@ function RealmWarp() {
                             the collider of the aforementioned GameObject.
                         </li>
                         <li>
-                            To force push, the player would first have to pickup a dark realm orb
+                            To force push, the player would first have to pick up a dark realm orb
                             and then press the Q key.
                         </li>
                         <li>
@@ -251,7 +251,7 @@ function RealmWarp() {
                                 <li>
                                     Wrote a coroutine which would update the position simultaneously
                                     with other actions in the game. I also limited the max velocity
-                                    of the object to make it track the location easier.
+                                    of the object to make it track the location more easily.
                                 </li>
                             </ul>
                         </li>
@@ -276,7 +276,7 @@ function RealmWarp() {
                             Solution:
                             <ul>
                                 <li>
-                                    No solution, expanded upon in Areas of improvement section.
+                                    No solution, expanded upon in Areas of Improvement section.
                                 </li>
                             </ul>
                         </li>
@@ -300,7 +300,7 @@ function RealmWarp() {
 
                     <ul>
                         <li>
-                            There is limited amounts of objects that can be picked up.
+                            There are limited amounts of objects that can be picked up.
                             This was due to several bugs encountered during development
                             so the current implementation was a compromise to finish the
                             main functionality on time for my deadline.
@@ -311,8 +311,8 @@ function RealmWarp() {
                             entered their aggro radius.
                         </li>
                         <li>
-                            Some bugs with the ragdoll colision causing the enemy model
-                            to move in the opposite direction that they are supposed to.
+                            Some bugs with the rag doll collision caused the enemy
+                            to move in the opposite direction to the intended direction.
                             This would be a priority as I believe a fix can be made by tweaking
                             the behaviour after the enemy is defeated. Disabling collision for
                             the sword can also help in properly transfering momentum to the ragdoll.
@@ -337,19 +337,19 @@ function RealmWarp() {
                         I think Unity was a good choice for this project as my focus was on
                         implementing the system and not on visual fidelity which Unreal engine
                         has an advantage in. I have used some "preview" packages which were not
-                        officially implemented as part of the Unity engine package which could've
+                        officially implemented as part of the Unity engine package which could have
                         cause some bugs in implementation as the tools have not been fully tested.
                         The preview package aided in creating the aim animation using IK rigging.
                     </p>
 
                     <h2>What I would have done differently:</h2>
                     <p>
-                        The only thing I would do differently was to implement the dark realm
+                        The only thing I would do differently would be to implement the dark realm
                         in a different way. I would implement it as a "cooldown ability" commonly
-                        implemented in MMORPG's. The player would press the button to enter the dark
+                        implemented in MMORPGs. The player would press the button to enter the dark
                         realm for 10-15 secs and that ability would go on a 1 min cooldown before it
                         could be used again. This would give the player more freedom and choice when
-                        they could use the darkr realm powers rather than tie the powers to a powerup
+                        they could use the dark realm powers rather than tie the powers to a powerup
                         in a specific location in the game level.
                     </p>
 
@@ -358,7 +358,7 @@ function RealmWarp() {
                         I am happy how the project turned out. I will come back to this project
                         in the future to fix some of the bugs with the ragdoll physics and rework
                         the dark realm as mentioned in the above section. I have learned a lot
-                        about animation based gameplay systems and how to incorporate ragdoll physics
+                        about animation-based gameplay systems and how to incorporate ragdoll physics
                         into the game. Working on the telekinesis system made me appreciate the system
                         present in Control. The system is incredibly polished and most of the environment
                         can be broken apart and manipulated in some way.
