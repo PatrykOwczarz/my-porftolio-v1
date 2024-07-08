@@ -51,8 +51,10 @@ function Home() {
                     </p>
                     <p>
                         During university, I played CS:GO at an amateur pro level,
-                        which taught me effective communication and teamwork. To this day, I raid in a
-                        Mythic top 1000 world ranking guild in World of Warcraft.
+                        which taught me effective communication and teamwork. Currently, I am an
+                        officer in a top 500 world ranking guild in World of Warcraft. I manage and
+                        lead the Healer team in the guild which is developing my team management and
+                        leadership skills.
                     </p>
                 </div>
                 <div className='infoBox'>

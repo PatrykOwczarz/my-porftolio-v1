@@ -311,7 +311,7 @@ function RealmWarp() {
                             entered their aggro radius.
                         </li>
                         <li>
-                            Some bugs with the rag doll collision caused the enemy
+                            Some bugs with the ragdoll collision caused the enemy
                             to move in the opposite direction to the intended direction.
                             This would be a priority as I believe a fix can be made by tweaking
                             the behaviour after the enemy is defeated. Disabling collision for
