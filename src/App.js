@@ -7,10 +7,13 @@ import TankSurvival from './pages/TankSurvival';
 import Darkness from './pages/Darkness';
 import TankGame from './pages/TankGame';
 import RealmWarp from './pages/RealmWarp';
+import BekkaTheBokka from './pages/BekkaTheBokka';
+import Colorfoul from './pages/Colorfoul';
 import Contact from "./pages/Contact"
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
 import { useEffect } from 'react';
+
 
 function App() {
   useEffect(() => {
@@ -30,6 +33,8 @@ function App() {
           <Route path='/projects/darkness' element={<Darkness />} />
           <Route path='/projects/tankgame' element={<TankGame />} />
           <Route path='/projects/realmwarp' element={<RealmWarp />} />
+          <Route path='/projects/bekkathebokka' element={<BekkaTheBokka />} />
+          <Route path='/projects/colorfoul' element={<Colorfoul />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

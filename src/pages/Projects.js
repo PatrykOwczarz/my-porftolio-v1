@@ -2,7 +2,8 @@ import React from 'react'
 import '../styles/Projects.css'
 import RealmWarp from '../assets/images/realm-warp.jpg'
 import TheDungeon from '../assets/images/the-dungeon.png'
-import TankGame from '../assets/images/tank-game.png'
+import BekkaTheBokka from '../assets/images/bekka-the-bokka.png'
+import Colorfoul from '../assets/images/colorfoul.png'
 import TankSurvival from '../assets/images/tank-survival.png'
 import Darkness from '../assets/images/darkness.png'
 import { Link, useLocation } from 'react-router-dom'
@@ -14,6 +15,81 @@ function Projects() {
         <div className='projectsPage'>
             <h1>PROJECTS</h1>
             <div className='projectLayout'>
+
+                <div className='projectBox'>
+                    <img src={BekkaTheBokka} alt="Profile" width="320" height="150" />
+                    <div className='projectInfo'>
+                        <h2>Bekka The Bokka</h2>
+                        <div className='projectDescription'>
+                            <p className='descriptionP'>
+                                C# project in Unity.
+                                Created for the GMTK Game Jam 2024. The theme was "Built to scale".
+                                The game fit the theme by building a path for you to scale up it in a platformer style game.
+                                Created by a team of 9 people.
+                                My role on the team was Programmer.
+                            </p>
+                            <div className='technologies'>
+                                <p>Technologies used:</p>
+                                <ul>
+                                    <li>
+                                        Unity
+                                    </li>
+                                    <li>
+                                        C#
+                                    </li>
+                                    <li>
+                                        Github
+                                    </li>
+                                </ul>
+                                <div className='buttons'>
+
+                                    <Link className='linkButton' to="/projects/bekkathebokka">More Info</Link>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className='projectBox'>
+                    <img src={Colorfoul} alt="Profile" width="320" height="80" />
+                    <div className='projectInfo'>
+                        <h2>Colorfoul</h2>
+                        <div className='projectDescription'>
+                            <p className='descriptionP'>
+                                C# project in Unity.
+                                Created for the Pirate Software Game Jam 14. The theme was "Shadow Alchemy".
+                                Inspired by Vampire Survivors the player is an alchemist who combines materials to summon shadows.
+                                Created by team of 4 people. My role was Programmer.
+                            </p>
+                            <div className='technologies'>
+                                <p>Technologies used:</p>
+                                <ul>
+                                    <li>
+                                        Unity
+                                    </li>
+                                    <li>
+                                        C#
+                                    </li>
+                                    <li>
+                                        Github
+                                    </li>
+                                </ul>
+                                <div className='buttons'>
+
+                                    <Link className='linkButton' to="/projects/colorfoul">More Info</Link>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
 
                 <div className='projectBox'>
                     <img src={TankSurvival} alt="Profile" width="320" height="180" />
@@ -158,44 +234,6 @@ function Projects() {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className='projectBox'>
-                    <img src={TankGame} alt="Profile" width="320" height="180" />
-                    <div className='projectInfo'>
-                        <h2>Tank Game</h2>
-                        <div className='projectDescription'>
-                            <p className='descriptionP'>
-                                C# project in Unity.
-                                Created during a games development academy hosted by University
-                                of Westminster. I worked in a team consisting of
-                                a designer, an artist and myself who was the main programmer.
-                                The game is a wave-based tank shooter.
-                            </p>
-                            <div className='technologies'>
-                                <p>Technologies used:</p>
-                                <ul>
-                                    <li>
-                                        Unity
-                                    </li>
-                                    <li>
-                                        C#
-                                    </li>
-                                    <li>
-                                        Github
-                                    </li>
-                                </ul>
-                                <div className='buttons'>
-
-                                    <Link className='linkButton' to="/projects/tankgame">More Info</Link>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>

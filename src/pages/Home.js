@@ -25,7 +25,7 @@ function Home() {
 
             <h1>Hi! &#128075; I'm Patryk Owczarz</h1>
             <h2>
-                Graduate Game Programmer based in London. <br /> <br />
+                Game Programmer based in London. <br /> <br />
                 Actively searching for Junior roles.
             </h2>
             <div className='infoBlocks'>
@@ -34,7 +34,7 @@ function Home() {
                     <p>
                         Computer Science with Games Technology Graduate, with close to a decade
                         of Game development experience with various engines. Includes Unity, a Cherno
-                        project derived C++ engine using OpenGL and most recently Unreal.
+                        project derived C++ engine using OpenGL and most recently Unreal Engine 5.
                     </p>
                     <p>
                         I use Git as version control
