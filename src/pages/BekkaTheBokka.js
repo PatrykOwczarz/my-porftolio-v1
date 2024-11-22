@@ -28,7 +28,7 @@ function BekkaTheBokka() {
                         Created by a team of 9 people. My role on the team was Programmer.
                         <br></br>
                         <br></br>
-                        This project placed 693 out of 7614 entries in the Game Jam!
+                        This project was created in a 4 days and placed 693 out of 7614 entries in the Game Jam!
                     </p>
                     <div className='lists'>
                         <div>
@@ -101,23 +101,41 @@ function BekkaTheBokka() {
                     <h1>Purpose and Goal</h1>
                     <h2>Importance of Project:</h2>
                     <p>
-                        WIP
+                        I was approached by friends who I met at Develop:Brighton 2024. I expressed my interest
+                        in game jams when we met in person. When Jasmine has reached out to me about the team that she was forming,
+                        I eagerly accepted and got to know everyone on the team. We worked incredibly effectively during the
+                        4 day Game Jam and I have seriously improved my development skills but also teamwork, communication and
+                        especially time management as this was my first time doing a 4 day game jam.
                     </p>
 
 
                     <h2>Initial Vision:</h2>
                     <p>
-                        WIP
+                        The theme was "Built to Scale". Prior to starting the game jam we had ambitions to make a
+                        2D isometric action game inspired by Vampire Survivors. This quickly changed after the theme was
+                        revealed and we moved to the idea of building something to climb (scale) up it. The idea of deliveries
+                        came up and we quickly started doing research on the main idea behind the game. One of us mentioned Death Stranding
+                        and we found out that it was based on a real Japanese occupation of the "Bokka". A Bokka was a
+                        courier who would carry supplies to remote mountain guesthouses inaccessible to vehicles. That is how we
+                        settled on making Rebecca (Bekka) the Bokka who had a magical pen which allows her to summon terrain to
+                        climb the rough mountain landscape to deliver goods to the residents.
                     </p>
 
                     <h2>Initial Design:</h2>
                     <p>
-                        WIP
+                        The initial design was a traditional platformer which would require the player to jump on the placed blocks.
+                        We iterated on the idea and decided to make a climbing mechanic instead which would be different from
+                        other platforming games. Thus turning the game into more of a puzzle game with platforming elements as
+                        we created levels with various difficulties based on the "inventory" of available pieces on set difficulty.
                     </p>
 
                     <h2>Preliminary Planning:</h2>
                     <p>
-                        WIP
+                        We setup a Miro board to generate ideas for the project and to have a place for the artists to create a
+                        mood board for the style of the game. We brainstormed various options for the type of characters and
+                        settled on making animals for the characters in the game. We also created a Trello board to add tasks
+                        and keep track of who is working on what at a given time. We used Discord as the main medium of communication
+                        during the project.
                     </p>
                 </div>
                 <div className='media'>

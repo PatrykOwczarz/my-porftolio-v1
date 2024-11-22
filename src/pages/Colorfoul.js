@@ -100,23 +100,49 @@ function Colorfoul() {
                     <h1>Purpose and Goal</h1>
                     <h2>Importance of Project:</h2>
                     <p>
-                        WIP
+                        I reached out on the Pirate Software discord to find a group that
+                        wanted to work on the Pirate Software Game Jam 14 together. I got approached
+                        by another programmer and after brief chat we got on quiet well and started looking for more
+                        team members. We found an artist and a composer who were keen to join the team and so
+                        our team was formed. This was my first Game Jam which I did on a team with new people
+                        who I have never worked with before.
                     </p>
 
 
                     <h2>Initial Vision:</h2>
                     <p>
-                        WIP
+                        After "Shadow Alchemy" was revealed as the theme, we quickly got to brainstorming what the
+                        game story and genre should be. At the time of the game mode I was heavily into the "Vampire
+                        Survirors" genre of games. I played Halls of Torment and the swarm mode in League of Legends
+                        has come out at the time. This prompted me to propose that we make our own Vampire Survivors
+                        game. The team was on board with that idea and we concluded the idea for the gameplay.
+                        At first the gameplay was supposed to revolve around going around finding resources which we
+                        could then use to create weapons, armour and stat upgrades. We eventually reworked it to
+                        give the player a choice of 3 resources out of the "alchemists pouch" to create minions through
+                        shadow alchemy.
                     </p>
 
                     <h2>Initial Design:</h2>
                     <p>
-                        WIP
+                        The initial design was focused on the shadows to be the main protagonists. We brainstormed
+                        various enemy factions and types. We thought about monsters inspired by the underdark,
+                        "barbies" haha and we eventually settled on rainbow creatures (such as unicorns and fairy like
+                        beings). With our game style we wanted to create a direct flip between what people normally perceive
+                        as good and evil. The shadows were the protagonists of the story and they were invaded by twisted
+                        gore-y rainbow animals and creatures. The inspiration for the name came from our artist mispelling
+                        colorful as "colorfoul" during our brainstorming session and we immediately loved that idea.
+                        In our game anything that was colourful was foul and evil so it fit the title of the game perfectly.
                     </p>
 
                     <h2>Preliminary Planning:</h2>
                     <p>
-                        WIP
+                        We had 3 weeks for this Game Jam which was much longer than usual. This meant that we had to put
+                        aside time during our days outside of work to make progress on this game over the course of the 3
+                        weeks. We divided tasks on a trello board into "stages of completion" and priority so that
+                        we would be all on the same page throughout the development of the game. We assigned one of us
+                        as the leader of the project who would make sure the project was running smoothly. We held regular
+                        "stand-up" meetings to talk about what we accomplished today, what we would do tomorrow and if
+                        there were any blockers that needed to be resolved.
                     </p>
                 </div>
                 <div className='media'>
