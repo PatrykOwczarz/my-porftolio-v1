@@ -17,7 +17,7 @@ function Projects() {
             <div className='projectLayout'>
 
                 <div className='projectBox'>
-                    <img src={BekkaTheBokka} alt="Profile" width="320" height="150" />
+                    <img src={BekkaTheBokka} alt="Profile" width="320" height="133" />
                     <div className='projectInfo'>
                         <h2>Bekka The Bokka</h2>
                         <div className='projectDescription'>

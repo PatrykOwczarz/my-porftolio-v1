@@ -92,6 +92,28 @@
 
 }
 
+.mediaCode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+}
+
+.mediaCode img {
+    border: 2px solid black;
+    transition: transform 0.3s;
+    margin: 20px 0px;
+
+}
+
+.mediaCode img:hover {
+    transform: scale(2) translate(0, 0);
+    border-right: 2px solid black;
+
+}
+
 .button {
     display: flex;
     flex-direction: row;

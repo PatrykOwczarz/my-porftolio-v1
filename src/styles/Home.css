@@ -87,3 +87,11 @@
         flex-direction: column;
     }
 }
+
+.infoBox a {
+    color: navy;
+}
+
+.infoBox a:hover {
+    color: blue;
+}

@@ -39,7 +39,9 @@ function Home() {
                     <p>
                         I use Git as version control
                         for all my projects. I have experience working in a
-                        multidisciplinary team of artists, game designers and UX designers.
+                        multidisciplinary teams in agile environments. Currently volunteering for
+                        Concrete Realm Games working as an Unreal Engine Programmer on a project called
+                        <a href="https://store.steampowered.com/app/2870130/ENDS/"> <u> ENDS</u></a>
                     </p>
                 </div>
                 <div className='infoBox'>
@@ -52,16 +54,19 @@ function Home() {
                     <p>
                         During university, I played CS:GO at an amateur pro level,
                         which taught me effective communication and teamwork. Currently, I am an
-                        officer in a top 500 world ranking guild in World of Warcraft. I manage and
-                        lead the Healer team in the guild which is developing my team management and
-                        leadership skills.
+                        officer in a top 400 world ranking guild in World of Warcraft. I manage a team
+                        of players and ensure that they perfrom at their peak level by providing
+                        advice and resources relating to their class or the raid mechanics.
                     </p>
                 </div>
                 <div className='infoBox'>
                     <h1>Music Enthusiast</h1>
                     <p>
-                        My favourite music genres are Metal, Rock and EDM. However, I can find enjoyment
-                        in most music genres. I know how to play the drums and my hidden party trick is
+                        My favourite music genres are Metal, Rock and EDM. I love going to concerts and
+                        festivals. Last year I have seen Sleep Token in Budapest and
+                        went to Download Festival. I manged to be front row for Limp Bizkit and
+                        Avenged Sevenfold, both of which are unforgettable experiences.
+                        I know how to play the drums and my hidden party trick is
                         playing guitar hero on expert difficulty.
                     </p>
                     <p>
