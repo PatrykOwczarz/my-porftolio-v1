@@ -192,12 +192,12 @@ function ShellShocked() {
                             5 weak enemies etc.
                         </li>
                         <li>
-                            The spawning location was based on predefined waypoints which were attached
-                            to the player. This simulated the enemies spawning just outside the screen
-                            view of the player to replicate the feel of spawning seen in Vampire Survivors.
                             This created a diverse yet somewhat unbalanced experience because sometimes in
                             later round the player would be swarmed by stong enemies without the power
                             to defeat them efficiently yet. I will talk more about this in the later section.
+                            The spawning location was based on predefined waypoints which were attached
+                            to the player. This simulated the enemies spawning just outside the screen
+                            view of the player to replicate the feel of spawning seen in Vampire Survivors.
                         </li>
                         <li>
                             Overall I was pleased with this implementation, despite it being a bit rough
