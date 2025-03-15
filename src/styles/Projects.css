@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
 
-    width: 800px;
+    width: 820px;
     height: 250px;
 
     background-color: #64CCC5;
@@ -66,17 +66,21 @@
     justify-content: flex-start;
     text-align: start;
 
+
 }
 
 .descriptionP {
     width: 300px;
-    border: 1px solid white;
+    border-right: 1px solid black;
+    padding-right: 5px;
 }
 
 .technologies {
     display: flex;
     flex-direction: column;
     border: 1px solid white;
+    width: 160px;
+    padding-left: 5px;
 }
 
 .buttons {

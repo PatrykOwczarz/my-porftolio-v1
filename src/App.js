@@ -9,6 +9,7 @@ import TankGame from './pages/TankGame';
 import RealmWarp from './pages/RealmWarp';
 import BekkaTheBokka from './pages/BekkaTheBokka';
 import Colorfoul from './pages/Colorfoul';
+import ShellShocked from './pages/ShellShocked';
 import Contact from "./pages/Contact"
 import Navbar from './components/Navbar';
 import Footer from './components/Footer'
@@ -35,6 +36,7 @@ function App() {
           <Route path='/projects/realmwarp' element={<RealmWarp />} />
           <Route path='/projects/bekkathebokka' element={<BekkaTheBokka />} />
           <Route path='/projects/colorfoul' element={<Colorfoul />} />
+          <Route path='/projects/shellshocked' element={<ShellShocked />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
