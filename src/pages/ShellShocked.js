@@ -192,6 +192,9 @@ function ShellShocked() {
                             5 weak enemies etc.
                         </li>
                         <li>
+                            The spawning location was based on predefined waypoints which were attached
+                            to the player. This simulated the enemies spawning just outside the screen
+                            view of the player to replicate the feel of spawning seen in Vampire Survivors.
                             This created a diverse yet somewhat unbalanced experience because sometimes in
                             later round the player would be swarmed by stong enemies without the power
                             to defeat them efficiently yet. I will talk more about this in the later section.
@@ -310,7 +313,7 @@ function ShellShocked() {
                     <h2>Final takeaways moving forward:</h2>
                     <p>
                         This was a fantastic learning opportunity and I had a great time working with the team.
-                        Huge thanks to the team: Jasmine, Louis, Paige, Dylan George Walker and last but certainly
+                        Huge thanks to the team: Jasmine, Louis, Paige, Dylan, George Walker and last but certainly
                         not least, George Pack.
                     </p>
                 </div>
