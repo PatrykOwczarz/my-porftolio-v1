@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Home.css'
 import ProfilePic from '../assets/images/profile-pic.jpg'
-import TwitterIcon from '../assets/images/Twitter.png'
+import TwitterIcon from '../assets/images/X-Logo-Black.png'
 import GithubIcon from '../assets/images/Github.png'
 import LinkedInIcon from '../assets/images/LinkedIn.png'
 
@@ -13,10 +13,9 @@ function Home() {
                     <img src={ProfilePic} alt="Profile" width="200" height="200" />
                 </div>
                 <div className='textDetails'>
-                    <h1>Patryk Owcarz</h1>
-                    <h2>Game Programmer</h2>
+                    <h1>Patryk Owczarz</h1>
                     <div className="socials">
-                        <a href="https://twitter.com/Demkolai"><img src={TwitterIcon} alt="Twitter Icon" width="65" height="50" /></a>
+                        <a href="https://twitter.com/Demkolai"><img src={TwitterIcon} alt="Twitter Icon" width="50" height="50" /></a>
                         <a href="https://github.com/PatrykOwczarz"><img src={GithubIcon} alt="Github Icon" width="50" height="50" /></a>
                         <a href="https://www.linkedin.com/in/patryk-owczarz/"><img src={LinkedInIcon} alt="LinkedIn Icon" width="50" height="50" /></a>
                     </div>
@@ -25,7 +24,8 @@ function Home() {
 
             <h1>Hi! &#128075; I'm Patryk Owczarz</h1>
             <h2>
-                Game Programmer based in London. <br /> <br />
+                Gameplay/UI Programmer based in London. <br /> <br />
+                &#127881; <a href="https://www.intogames50.uk/ig50-2025"> <u> IG50 2025</u></a> Programming Winner &#127881; <br /> <br />
                 Actively searching for Junior roles.
             </h2>
             <div className='infoBlocks'>
